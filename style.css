@@ -1,0 +1,103 @@
+body{
+    font-family:helvetica;
+
+    background-color: #f0f0f0;
+    color: white;
+}
+
+.container{
+    background-image: url("sky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 105px;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+input[type='text']{
+    width:full;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.5);;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    outline: none; 
+
+}
+
+button{
+    background-color:cadetblue;
+    color:#fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container>.data{
+    background-color: rgb(64, 62, 75, 0.5);
+    height: 100%;
+    float:right;
+    width:300px;
+    border-radius: 5px;     
+    box-sizing: border-box;
+    padding: 0%;
+
+}
+h4{  
+    padding-top: 250px;   
+    margin: 0;
+}
+.weather-info {
+    
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+  
+.weather-details{
+    display: block;
+    justify-content: space-between;
+    width: 200px;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.add-info{
+    margin-top: 20px;
+    padding-left: 25px;
+    display: inline-flexbox;
+     justify-content:start;
+     width: 100%;
+     text-align: start;
+     line-height: 0.1;
+    
+} 
+
+.weather-details span{
+    font-size: 40px;
+    margin: 0 20px;
+    margin-top:10px;
+}
+#country{
+    font-size: 15px;
+    display: inline-flex;
+}
+#weatherIcon {
+    width: 50px;
+    height: 50px;
+}
